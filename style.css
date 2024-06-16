@@ -1,9 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
 h1 {
     color: cornflowerblue;
     background-color: palevioletred;
 }
 
+h2 {
+    color: rosybrown;
+    background-color: darkolivegreen;
+}
 
-h1{
-    color:aquamarine
+/* article > p {
+    font-size: 25px;
+} */
+
+.article_p {
+    font-size: 1.5 rem;
+}
+
+#footer_p {
+    color: peachpuff;
+    background-color: darkgrey;
+}
+
+li {
+    color: black;
+    background-color: tan;
+}
+
+li:nth-child(2n) {
+    color: rebeccapurple;
+    background-color: darkseagreen;
+}
+
+img {
+    max-width: 50vw;
+    height: 10%;
 }
